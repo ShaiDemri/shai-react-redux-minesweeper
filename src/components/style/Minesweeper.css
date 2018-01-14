@@ -7,7 +7,7 @@ section, article, aside, hgroup, header, footer, nav, figure, figcaption, summar
     display: block; }
 
 body {
-    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", "ＭＳ Ｐゴシック", Verdana, Geneva, Arial, Helvetica;
+    font-family: "", sans-serif;
     word-wrap: break-word;
     word-break: break-all; }
 
@@ -32,7 +32,6 @@ h1, h2, h3, h4, h5, h6 {
 
 table {
     font-size: inherit;
-    font: 100%;
     border-collapse: collapse;
     border-spacing: 0; }
 
@@ -94,11 +93,6 @@ embed {
     padding: 50px 0 30px;
     font-family: 'Antic Slab', serif; }
 
-.Wrapper__howToPlay {
-    width: 700px;
-    line-height: 2;
-    margin: 0 auto 50px; }
-
 .MineSweeper {
     position: relative;
     background-color: #eee;
@@ -110,7 +104,7 @@ embed {
 .MineSweeper.INTERMEDIATE {
     width: 490px; }
 .MineSweeper.EXPERT {
-    width: 900px; }
+    width: inherit; }
 .MineSweeper__level {
     text-align: center;
     padding: 10px; }

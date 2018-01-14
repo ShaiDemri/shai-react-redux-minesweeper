@@ -6,7 +6,7 @@ class GameMenu extends React.Component {
     constructor() {
         super();
         this.tick = this.tick.bind(this);
-        this.state = { timer: null, counter: 0, resetTimer: true };
+        this.state = { timer: 0, counter: 0, resetTimer: true };
     }
 
     componentDidMount() {
