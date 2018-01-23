@@ -12,7 +12,7 @@ const LEVELS = {
     EXPERT: {
         name: "Expert",
         boardSize: 32,
-        mines: 100
+        mines: 99
     }
 };
 const Levels = () => JSON.parse(JSON.stringify(LEVELS));
