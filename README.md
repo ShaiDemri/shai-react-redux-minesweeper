@@ -1,1 +1,1 @@
-Play [MineSweeper](https://the-mri.github.io/shai-react-redux-minesweeper).
+Play [MineSweeper](https://shaidemri.github.io/shai-react-redux-minesweeper).
