@@ -11,11 +11,11 @@ const parseCoords = (coordinate) => {
     return {row, col};
 };
 
-const forBoardSize = (boardSize, c) => {
+const forBoardSize = (boardSize, callback) => {
     for (let row = 0; row < boardSize; row++) {
         for (let col = 0; col < boardSize; col++) {
             const coordinate = [row, col].join(SEPARATOR);
-            c(coordinate, row, col);
+            callback(coordinate, row, col);
         }
     }
 };
@@ -63,12 +63,12 @@ const toggleFlag = (board, id) => {
   if(board[id].isOpen){
       return board;
   }else if(!board[id].hasFlag && flagCount(board)>=mineCount(board)){
-      alert("NO MORE FLAGS LEFT!")
+      alert("NO MORE FLAGS LEFT!");
       return board;
   }
 
   const cell = {...board[id],hasFlag: !board[id].hasFlag};
-  const newBoard = {...board, [id]: cell}
+  const newBoard = {...board, [id]: cell};
   return newBoard;
 };
 

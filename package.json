@@ -1,7 +1,7 @@
 {
   "name": "shai-react-redux-minesweeper",
   "version": "0.1.0",
-  "homepage": "https://the-mri.github.io/shai-react-redux-minesweeper/",
+  "homepage": "https://shaidemri.github.io/shai-react-redux-minesweeper/",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.1.0",

@@ -6,7 +6,7 @@ const LevelMenu = ({gameLevels, changeLevel, activeLevel}) => (
         {gameLevels.map((gameLevel) => {
             const checked = gameLevel.id === activeLevel;
             return (
-                <label>
+                <label key= {gameLevel.id}>
                     <input
                         type="radio"
                         name="level"
